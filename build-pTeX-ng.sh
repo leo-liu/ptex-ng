@@ -1,3 +1,4 @@
+#! /bin/sh
 export NG_SRC_DIR=`pwd`
 cd $NG_SRC_DIR/libs/zlib && ./configure && make
 cp libz.a $NG_SRC_DIR/texk/ptex-ng
